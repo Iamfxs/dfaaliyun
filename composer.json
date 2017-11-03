@@ -11,7 +11,8 @@
         }
     ],
     "require": {
-        "php": ">=5.5.0"
+        "php": ">=5.5.0",
+        "fu/dfa-aliyun":"dev-master"
     },
     "autoload": {
         "psr-4": {
@@ -19,5 +20,11 @@
         }
     },
     "minimum-stability": "stable",
+    "repositories":[
+        {
+            "type":"vcs",
+            "url":"https://github.com/Iamfxs/dfaaliyu"
+        }
+    ],
     
 }
