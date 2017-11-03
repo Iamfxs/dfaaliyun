@@ -1,0 +1,43 @@
+[
+    {
+        "name": "hank/aliyun-green",
+        "version": "v1.0.2",
+        "version_normalized": "1.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/hankviv/aliyun-green-sdk.git",
+            "reference": "f796667d0decae3eab0ede73b5b70229d08e5b76"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/hankviv/aliyun-green-sdk/zipball/f796667d0decae3eab0ede73b5b70229d08e5b76",
+            "reference": "f796667d0decae3eab0ede73b5b70229d08e5b76",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.0"
+        },
+        "time": "2017-08-02T02:43:48+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Liu\\AliyunGreen\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "aloneliu",
+                "email": "745302601@qq.com"
+            }
+        ],
+        "description": "PHP  集成aliyun非法文字过滤",
+        "keywords": [
+            "aliyun",
+            "green",
+            "sdk",
+            "文字过滤"
+        ]
+    }
+]

@@ -1,6 +1,6 @@
 <?php
 
-namespace Cedar\Dfa;
+namespace Liu\AliyunGreen;
 
 require_once __DIR__ . '/../aliyuncs/aliyun-php-sdk-core/Config.php';
 
