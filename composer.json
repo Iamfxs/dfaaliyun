@@ -1,0 +1,23 @@
+{
+    "name": "fu/dfa-aliyun",
+    "description": "this is an DFA for php.",
+    "type": "library",
+    "license": "MIT",
+    "keywords":["cedar"],
+    "authors": [
+        {
+            "name": "fxsmjj",
+            "email": "15110178209@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cedar\\Dfa\\":"src/"
+        }
+    },
+    "minimum-stability": "stable",
+    
+}
